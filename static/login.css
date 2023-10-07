@@ -1,0 +1,29 @@
+body{
+    background-image: url('img/img1.jpg');
+    background-size: cover;
+    color: #eee;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+#login-container{
+    background-color: rgba(47, 34, 58, 0.76);
+    border-radius: 10px;
+}
+#login-img{
+   border-radius: 10px;
+}
